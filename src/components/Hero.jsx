@@ -16,10 +16,10 @@ const Hero = () => {
           className="hero-text"
         >
           <h2 className="greeting">Hi, I'm</h2>
-          <h1 className="name">Muhammadhu <span>Injas</span></h1>
+          <h1 className="name">Muhammadhu <span>Injas M</span></h1>
           
           <div className="typing-container">
-            <p className="typing-text">Full-Stack Developer & CS Undergraduate</p>
+            <p className="typing-text">Computer Science Undergraduate | Full-Stack & Mobile App Developer</p>
           </div>
 
           <p className="intro">

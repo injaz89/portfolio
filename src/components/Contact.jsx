@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiMail, FiPhone, FiGithub, FiLinkedin, FiSend } from 'react-icons/fi';
+import { FiMail, FiPhone, FiGithub, FiLinkedin, FiSend, FiMapPin } from 'react-icons/fi';
 import './Contact.css';
 
 const Contact = () => {
@@ -48,21 +48,21 @@ const Contact = () => {
               <div className="method-icon"><FiMail /></div>
               <div className="method-details">
                 <h4>Email</h4>
-                <p>injas@example.com</p>
+                <p>mohamedinjas66@gmail.com</p>
               </div>
             </div>
             <div className="contact-method">
-              <div className="method-icon"><FiPhone /></div>
+              <div className="method-icon"><FiMapPin /></div>
               <div className="method-details">
-                <h4>Phone</h4>
-                <p>+94 77 123 4567</p>
+                <h4>Location</h4>
+                <p>Galle, Sri Lanka</p>
               </div>
             </div>
           </div>
 
           <div className="social-links">
-            <a href="#" className="social-icon" aria-label="GitHub"><FiGithub /></a>
-            <a href="#" className="social-icon" aria-label="LinkedIn"><FiLinkedin /></a>
+            <a href="https://github.com/injaz89" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub"><FiGithub /></a>
+            <a href="https://linkedin.com/in/injas" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn"><FiLinkedin /></a>
           </div>
         </motion.div>
 

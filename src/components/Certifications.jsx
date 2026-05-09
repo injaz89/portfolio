@@ -5,10 +5,13 @@ import './Certifications.css';
 
 const Certifications = () => {
   const certifications = [
-    { title: "Java Programming", issuer: "Coursera / Oracle" },
-    { title: "Artificial Intelligence", issuer: "IBM" },
-    { title: "Cloud Security", issuer: "AWS" },
-    { title: "Java OOP", issuer: "HackerRank" }
+    { title: "Professional Certificate in Java Programming", issuer: "Certification" },
+    { title: "Professional Certificate in Artificial Intelligence", issuer: "Certification" },
+    { title: "Machine Learning: AI Python & R + ChatGPT", issuer: "Certification" },
+    { title: "Java Object-Oriented Programming", issuer: "LinkedIn Learning" },
+    { title: "Introduction to Cloud Security", issuer: "SimpliLearn" },
+    { title: "Volunteer — Haxmas Journey 2024 Grand Finale", issuer: "Ascentic (Participation)" },
+    { title: "Industry Visit — Virtusa Sri Lanka", issuer: "IEEE IIT Insight Gen (Participation)" }
   ];
 
   return (
@@ -19,7 +22,7 @@ const Certifications = () => {
         viewport={{ once: true }}
         className="section-title"
       >
-        My <span>Certifications</span>
+        My <span>Certifications & Participations</span>
       </motion.h2>
 
       <div className="certs-grid">

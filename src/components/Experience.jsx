@@ -6,14 +6,14 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      role: "Junior Web Developer",
-      company: "Sparkle Media",
+      role: "Junior Web Developer (Freelance)",
+      company: "Sparkle Media, Remote",
       date: "June 2025 – Present",
       tasks: [
-        "Developed responsive client websites using modern frontend technologies.",
-        "Improved UI/UX to enhance user engagement and retention.",
-        "Built dynamic and performant frontend interfaces.",
-        "Collaborated with the design team to ensure visual consistency."
+        "Developed and deployed a responsive website based on client business requirements",
+        "Designed front-end interfaces using HTML, CSS, and JavaScript",
+        "Ensured mobile responsiveness and cross-browser compatibility",
+        "Maintained and updated features based on client feedback"
       ]
     }
   ];
