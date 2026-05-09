@@ -5,28 +5,40 @@ import { FiDownload, FiArrowRight } from 'react-icons/fi';
 import './Hero.css';
 
 const Hero = () => {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.2 }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+  };
   return (
     <section id="home" className="hero-section">
       <div className="particles-bg"></div>
       <div className="hero-content">
         <motion.div 
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
           className="hero-text"
         >
-          <h2 className="greeting">Hi, I'm</h2>
-          <h1 className="name">Muhammadhu <span>Injas M</span></h1>
+          <motion.h2 variants={itemVariants} className="greeting">Hi, I'm</motion.h2>
+          <motion.h1 variants={itemVariants} className="name">Muhammadhu <span>Injas M</span></motion.h1>
           
-          <div className="typing-container">
+          <motion.div variants={itemVariants} className="typing-container">
             <p className="typing-text">Computer Science Undergraduate | Full-Stack & Mobile App Developer</p>
-          </div>
+          </motion.div>
 
-          <p className="intro">
+          <motion.p variants={itemVariants} className="intro">
             I build responsive web and mobile applications using React, Spring Boot, Node.js, and modern web technologies.
-          </p>
+          </motion.p>
 
-          <div className="hero-buttons">
+          <motion.div variants={itemVariants} className="hero-buttons">
             <Link to="projects" smooth={true} duration={500} className="btn btn-primary">
               View Projects <FiArrowRight />
             </Link>
@@ -36,7 +48,7 @@ const Hero = () => {
             <Link to="contact" smooth={true} duration={500} className="btn btn-outline">
               Contact Me
             </Link>
-          </div>
+          </motion.div>
         </motion.div>
 
         <motion.div 
