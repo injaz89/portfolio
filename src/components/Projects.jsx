@@ -3,6 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
 import './Projects.css';
 
+import iitConnectImg from '../assets/projects/iit-connect-logo.png';
+import prestigeImg from '../assets/projects/prestige.png';
+import sparkleGemsImg from '../assets/projects/sparkle_gems.png';
+import auriferaGemsImg from '../assets/projects/aurifera_gems.jpeg';
+
 const Projects = () => {
   const [filter, setFilter] = useState('All');
 
@@ -13,8 +18,8 @@ const Projects = () => {
       category: 'Mobile',
       tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Expo', 'TypeScript'],
       desc: 'Campus mobile app for IIT students — centralizes university life: activities, info, and resources. Built as part of SDGP.',
-      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80',
-      github: '#',
+      image: iitConnectImg,
+      github: 'https://github.com/Dev-Liss/IIT-Connect',
       demo: '#'
     },
     {
@@ -23,8 +28,8 @@ const Projects = () => {
       category: 'Frontend',
       tech: ['HTML', 'CSS', 'JavaScript'],
       desc: 'Fully responsive website for a car detailing business in New Zealand with interactive booking system.',
-      image: 'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=600&q=80',
-      github: '#',
+      image: prestigeImg,
+      github: 'https://github.com/injaz89/Prestige-Auto-Detailers',
       demo: '#'
     },
     {
@@ -34,7 +39,7 @@ const Projects = () => {
       tech: ['Java', 'Spring Boot', 'MySQL', 'Bootstrap'],
       desc: 'Full-stack finance tracking system with user login, transaction management, and financial summaries.',
       image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=600&q=80',
-      github: '#',
+      github: 'https://github.com/injaz89/Personal-Finance-Tracker-',
       demo: '#'
     },
     {
@@ -43,8 +48,8 @@ const Projects = () => {
       category: 'Full-Stack',
       tech: ['HTML', 'CSS', 'JS', 'MySQL', 'Java'],
       desc: 'E-commerce platform for a gemstone business with product listings and category pages.',
-      image: 'https://images.unsplash.com/photo-1599643478524-fb6664536694?auto=format&fit=crop&w=600&q=80',
-      github: '#',
+      image: sparkleGemsImg,
+      github: 'https://github.com/injaz89/Sparkle-Gems',
       demo: '#'
     },
     {
@@ -54,7 +59,7 @@ const Projects = () => {
       tech: ['Python', 'OOP', 'CSV'],
       desc: 'Python program that analyzes vehicle counts from two junctions and displays traffic patterns using histograms.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
-      github: '#',
+      github: 'https://github.com/injaz89/Traffic-Data-Histogram---CW1',
       demo: '#'
     },
     {
@@ -63,8 +68,8 @@ const Projects = () => {
       category: 'Frontend',
       tech: ['HTML', 'CSS'],
       desc: 'Business website built to increase brand awareness for a gemstone company.',
-      image: 'https://images.unsplash.com/photo-1615486171448-4fb3eb526368?auto=format&fit=crop&w=600&q=80',
-      github: '#',
+      image: auriferaGemsImg,
+      github: 'https://github.com/injaz89/Aurifera-Gems',
       demo: '#'
     }
   ];
