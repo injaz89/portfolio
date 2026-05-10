@@ -9,17 +9,45 @@ const Contact = () => {
     email: '',
     message: ''
   });
+  const [status, setStatus] = useState('');
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // In a real application, you would connect this to a service like EmailJS
-    console.log(formData);
-    alert("Message sent successfully!");
-    setFormData({ name: '', email: '', message: '' });
+    setStatus('sending');
+
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/mohamedinjas66@gmail.com", {
+        method: "POST",
+        headers: { 
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        },
+        body: JSON.stringify({
+            name: formData.name,
+            email: formData.email,
+            message: formData.message
+        })
+      });
+
+      if (response.ok) {
+        setStatus('success');
+        alert("Message sent successfully!");
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setStatus('error');
+        alert("Oops! Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus('error');
+      alert("Oops! Something went wrong. Please try again later.");
+    }
+    
+    setTimeout(() => setStatus(''), 3000);
   };
 
   return (
@@ -109,8 +137,8 @@ const Contact = () => {
               placeholder="Your message here..."
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-primary submit-btn">
-            Send Message <FiSend />
+          <button type="submit" className="btn btn-primary submit-btn" disabled={status === 'sending'}>
+            {status === 'sending' ? 'Sending...' : 'Send Message'} <FiSend />
           </button>
         </motion.form>
       </div>
