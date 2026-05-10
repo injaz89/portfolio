@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { FiDownload, FiArrowRight } from 'react-icons/fi';
+import profileImg from '../assets/projects/injas.jpeg';
 import './Hero.css';
 
 const Hero = () => {
@@ -58,10 +59,7 @@ const Hero = () => {
           className="hero-image-container"
         >
           <div className="image-wrapper glass-card">
-            <div className="profile-placeholder">
-              {/* Add your actual image in assets folder and import it */}
-              <div className="placeholder-text">MI</div>
-            </div>
+            <img src={profileImg} alt="Muhammadhu Injas M" className="profile-image" />
           </div>
         </motion.div>
       </div>
