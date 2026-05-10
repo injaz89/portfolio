@@ -43,7 +43,7 @@ const Hero = () => {
             <Link to="projects" smooth={true} duration={500} className="btn btn-primary">
               View Projects <FiArrowRight />
             </Link>
-            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+            <a href="/INJAS_IFHAM_CV.pdf" download="INJAS_IFHAM_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               Download CV <FiDownload />
             </a>
             <Link to="contact" smooth={true} duration={500} className="btn btn-outline">

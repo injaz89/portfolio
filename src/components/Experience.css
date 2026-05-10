@@ -40,14 +40,14 @@
   color: var(--primary);
   font-size: 1.2rem;
   z-index: 1;
-  box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4);
+  box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.4);
   animation: pulseDot 2s infinite;
 }
 
 @keyframes pulseDot {
-  0% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4); }
-  70% { box-shadow: 0 0 0 10px rgba(139, 92, 246, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(56, 189, 248, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
 }
 
 .timeline-content {
@@ -57,7 +57,7 @@
 .timeline-date {
   display: inline-block;
   padding: 0.3rem 1rem;
-  background: rgba(139, 92, 246, 0.1);
+  background: rgba(56, 189, 248, 0.1);
   color: var(--primary);
   border-radius: 20px;
   font-size: 0.85rem;
