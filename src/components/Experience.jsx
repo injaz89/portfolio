@@ -10,10 +10,10 @@ const Experience = () => {
       company: "Sparkle Media, Remote",
       date: "June 2025 – Present",
       tasks: [
-        "Developed and deployed a responsive website based on client business requirements",
-        "Designed front-end interfaces using HTML, CSS, and JavaScript",
-        "Ensured mobile responsiveness and cross-browser compatibility",
-        "Maintained and updated features based on client feedback"
+        "Developed and deployed a responsive website for a client based on business requirements.",
+        "Designed and implemented front-end interfaces using HTML, CSS, and JavaScript.",
+        "Ensured mobile responsiveness and cross-browser compatibility.",
+        "Maintaining and updating website features based on client feedback."
       ]
     }
   ];

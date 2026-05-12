@@ -80,10 +80,17 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact-method">
+              <div className="method-icon"><FiPhone /></div>
+              <div className="method-details">
+                <h4>Phone</h4>
+                <p>+94 76 790 1071</p>
+              </div>
+            </div>
+            <div className="contact-method">
               <div className="method-icon"><FiMapPin /></div>
               <div className="method-details">
                 <h4>Location</h4>
-                <p>Galle, Sri Lanka</p>
+                <p>No.60 Park Residence, Dehiwala</p>
               </div>
             </div>
           </div>

@@ -29,7 +29,7 @@ const Hero = () => {
           className="hero-text"
         >
           <motion.h2 variants={itemVariants} className="greeting">Hi, I'm</motion.h2>
-          <motion.h1 variants={itemVariants} className="name">Muhammadhu <span>Injas M</span></motion.h1>
+          <motion.h1 variants={itemVariants} className="name">Injas <span>Ifham</span></motion.h1>
           
           <motion.div variants={itemVariants} className="typing-container">
             <p className="typing-text">Computer Science Undergraduate | Full-Stack & Mobile App Developer</p>

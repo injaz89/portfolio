@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
 import './Projects.css';
 
 import iitConnectImg from '../assets/projects/iit-connect-logo.png';
@@ -120,9 +120,6 @@ const Projects = () => {
                 <div className="project-overlay">
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
                     <FiGithub />
-                  </a>
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">
-                    <FiExternalLink />
                   </a>
                 </div>
               </div>
