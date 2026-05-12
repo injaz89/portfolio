@@ -5,7 +5,6 @@ import './Projects.css';
 
 import iitConnectImg from '../assets/projects/iit-connect-logo.png';
 import prestigeImg from '../assets/projects/prestige.png';
-import sparkleGemsImg from '../assets/projects/sparkle_gems.png';
 import auriferaGemsImg from '../assets/projects/aurifera_gems.jpeg';
 
 const Projects = () => {
@@ -14,7 +13,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'IIT Connect App',
+      title: 'IIT CONNECT Application',
       category: 'Mobile',
       tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Expo', 'TypeScript'],
       desc: 'Campus mobile app for IIT students — centralizes university life: activities, info, and resources. Built as part of SDGP.',
@@ -24,7 +23,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Prestige Auto Detailing',
+      title: 'Prestige Auto Detailing Website',
       category: 'Frontend',
       tech: ['HTML', 'CSS', 'JavaScript'],
       desc: 'Fully responsive website for a car detailing business in New Zealand with interactive booking system.',
@@ -44,32 +43,52 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Sparkle Gems E-Commerce',
-      category: 'Full-Stack',
-      tech: ['HTML', 'CSS', 'JS', 'MySQL', 'Java'],
-      desc: 'E-commerce platform for a gemstone business with product listings and category pages.',
-      image: sparkleGemsImg,
-      github: 'https://github.com/injaz89/Sparkle-Gems',
+      title: 'Estate Agent Application',
+      category: 'Frontend',
+      tech: ['React', 'Vite', 'HTML', 'CSS', 'Bootstrap'],
+      desc: 'Responsive property search application with advanced filtering, interactive property details, favorites, drag-and-drop features.',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80',
+      github: '#',
       demo: '#'
     },
     {
       id: 5,
-      title: 'Traffic Data Histogram',
+      title: 'Smart Campus API',
       category: 'Backend',
-      tech: ['Python', 'OOP', 'CSV'],
-      desc: 'Python program that analyzes vehicle counts from two junctions and displays traffic patterns using histograms.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
-      github: 'https://github.com/injaz89/Traffic-Data-Histogram---CW1',
+      tech: ['Java', 'JAX-RS', 'REST API', 'Maven'],
+      desc: 'Scalable RESTful API for university facilities management with secure room and sensor tracking, nested resource architecture.',
+      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80',
+      github: '#',
       demo: '#'
     },
     {
       id: 6,
+      title: 'Graph Processing Solution',
+      category: 'Backend',
+      tech: ['Java', 'Graph Algorithms'],
+      desc: 'Directed graph processing utility that parses CSV data, detects DAG structures, calculates graph metrics, and implements PageRank.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+      github: '#',
+      demo: '#'
+    },
+    {
+      id: 7,
       title: 'Aurifera Gems Website',
       category: 'Frontend',
       tech: ['HTML', 'CSS'],
       desc: 'Business website built to increase brand awareness for a gemstone company.',
       image: auriferaGemsImg,
       github: 'https://github.com/injaz89/Aurifera-Gems',
+      demo: '#'
+    },
+    {
+      id: 8,
+      title: 'Traffic Data Histogram',
+      category: 'Backend',
+      tech: ['Python', 'OOP', 'CSV'],
+      desc: 'Python program that analyzes vehicle counts from two junctions and displays traffic patterns using histograms.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+      github: 'https://github.com/injaz89/Traffic-Data-Histogram---CW1',
       demo: '#'
     }
   ];

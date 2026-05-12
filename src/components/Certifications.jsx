@@ -5,11 +5,11 @@ import './Certifications.css';
 
 const Certifications = () => {
   const certifications = [
-    { title: "Professional Certificate in Java Programming", issuer: "Certification" },
+    { title: "Professional Certificate in Java programming", issuer: "Certification" },
     { title: "Professional Certificate in Artificial Intelligence", issuer: "Certification" },
-    { title: "Machine Learning: AI Python & R + ChatGPT", issuer: "Certification" },
+    { title: "Machine Learning : AI python & R + Chat-GPT Prize", issuer: "Certification" },
     { title: "Java Object-Oriented Programming", issuer: "LinkedIn Learning" },
-    { title: "Introduction to Cloud Security", issuer: "SimpliLearn" },
+    { title: "Introduction to Cloud Security", issuer: "Simple Learn" },
     { title: "Volunteer — Haxmas Journey 2024 Grand Finale", issuer: "Ascentic (Participation)" },
     { title: "Industry Visit — Virtusa Sri Lanka", issuer: "IEEE IIT Insight Gen (Participation)" }
   ];

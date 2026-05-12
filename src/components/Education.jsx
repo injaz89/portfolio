@@ -47,7 +47,7 @@ const Education = () => {
           <div className="edu-content">
             <div className="edu-header">
               <h3>Foundation Certificate in Higher Education</h3>
-              <span className="edu-date">2023 – 2024</span>
+              <span className="edu-date">2024</span>
             </div>
             <h4 className="edu-institution">Informatics Institute of Technology (IIT)</h4>
             
