@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         
         <p className="footer-text">
-          &copy; {year} Muhammadhu Injas M. All rights reserved.
+          &copy; {year} Injas Ifham. All rights reserved.
         </p>
         
         <div className="footer-links">

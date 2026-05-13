@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaJava, FaGitAlt, FaPython, FaFigma } from 'react-icons/fa';
-import { SiJavascript, SiSpringboot, SiExpress, SiMysql, SiMongodb, SiPostgresql, SiBootstrap, SiTypescript, SiTailwindcss } from 'react-icons/si';
+import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaJava, FaGitAlt, FaPython, FaFigma, FaDatabase } from 'react-icons/fa';
+import { SiJavascript, SiSpringboot, SiExpress, SiMysql, SiMongodb, SiPostgresql, SiBootstrap, SiTypescript, SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 import { SiIntellijidea } from 'react-icons/si';
 import { BsCloudFill } from 'react-icons/bs';
@@ -15,13 +15,15 @@ const Skills = () => {
         { name: "JavaScript", icon: <SiJavascript color="#F7DF1E" />, level: 85 },
         { name: "Java", icon: <FaJava color="#007396" />, level: 80 },
         { name: "Python", icon: <FaPython color="#3776AB" />, level: 75 },
-        { name: "TypeScript", icon: <SiTypescript color="#3178C6" />, level: 70 }
+        { name: "TypeScript", icon: <SiTypescript color="#3178C6" />, level: 70 },
+        { name: "SQL", icon: <FaDatabase color="#00758F" />, level: 80 }
       ]
     },
     {
       title: "Frontend",
       skills: [
         { name: "React", icon: <FaReact color="#61DAFB" />, level: 85 },
+        { name: "Next.js", icon: <SiNextdotjs color="#ffffff" />, level: 75 },
         { name: "HTML/CSS", icon: <FaHtml5 color="#E34F26" />, level: 90 },
         { name: "TailwindCSS", icon: <SiTailwindcss color="#06B6D4" />, level: 80 },
         { name: "Bootstrap", icon: <SiBootstrap color="#7952B3" />, level: 85 },
@@ -46,7 +48,7 @@ const Skills = () => {
       ]
     },
     {
-      title: "Tools & Others",
+      title: "Project Management & Tools",
       skills: [
         { name: "Git & GitHub", icon: <FaGitAlt color="#F05032" />, level: 85 },
         { name: "VS Code", icon: <VscVscode color="#007ACC" />, level: 90 },

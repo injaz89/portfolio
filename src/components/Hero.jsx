@@ -59,7 +59,7 @@ const Hero = () => {
           className="hero-image-container"
         >
           <div className="image-wrapper glass-card">
-            <img src={profileImg} alt="Muhammadhu Injas M" className="profile-image" />
+            <img src={profileImg} alt="Injas Ifham" className="profile-image" />
           </div>
         </motion.div>
       </div>

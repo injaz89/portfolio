@@ -41,10 +41,10 @@ const About = () => {
           className="about-text glass-card"
         >
           <p>
-            Curious and driven Computer Science undergraduate passionate about Full-Stack and Software Engineering. Skilled in Java, OOP, Data Structures & Algorithms, with hands-on experience in Spring Boot, Node.js, Express.js, React, React Native, JavaScript, HTML, CSS, MySQL, and MongoDB.
+            Curious and driven Computer Science undergraduate passionate about Full-Stack Development and Software Engineering. Skilled in Java, OOP, Data Structures & Algorithms, with hands-on experience in Spring Boot, Node.js, Express.js, React, React Native, JavaScript, HTML, CSS, MySQL, and MongoDB.
           </p>
           <p>
-            Focused on building responsive, scalable applications and writing clean, maintainable code to solve real-world problems.
+            Familiar with MERN Stack and focused on building responsive, scalable applications with clean, maintainable code.
           </p>
           <div className="quick-info">
             <div className="info-item">

@@ -30,7 +30,14 @@ const Education = () => {
               <h3>BSc (Hons) Computer Science</h3>
               <span className="edu-date">2024 – Present</span>
             </div>
-            <h4 className="edu-institution">Informatics Institute of Technology (IIT)</h4>
+            <h4 className="edu-institution">University of Westminster</h4>
+            
+            <div className="edu-details">
+              <div className="detail-item">
+                <span className="badge">Current Modules (2nd Year)</span>
+                <p>Software Development Group Project (80%), Database System (83.5%), Advance Client Side (74%), Object Oriented Programming (Java) (66.5%)</p>
+              </div>
+            </div>
           </div>
         </motion.div>
 
@@ -73,16 +80,9 @@ const Education = () => {
           <div className="edu-content">
             <div className="edu-header">
               <h3>G.C.E O/L</h3>
-              <span className="edu-date">Completed</span>
+              <span className="edu-date">2022</span>
             </div>
             <h4 className="edu-institution">All Saints' College, Galle</h4>
-            
-            <div className="edu-details">
-              <div className="detail-item">
-                <span className="badge">Results</span>
-                <p>2A, 2B, 5C</p>
-              </div>
-            </div>
           </div>
         </motion.div>
       </div>
