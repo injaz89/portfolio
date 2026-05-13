@@ -14,11 +14,11 @@
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.1), transparent 40%),
-    radial-gradient(circle at 85% 30%, rgba(14, 165, 233, 0.08), transparent 40%),
-    radial-gradient(circle at 50% 80%, rgba(2, 132, 199, 0.1), transparent 50%);
+    radial-gradient(circle at 15% 50%, rgba(14, 165, 233, 0.2), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.2), transparent 40%),
+    radial-gradient(circle at 50% 80%, rgba(236, 72, 153, 0.2), transparent 50%);
   z-index: -1;
-  filter: blur(50px);
+  filter: blur(60px);
   animation: pulseGlow 8s ease-in-out infinite alternate;
 }
 
@@ -39,24 +39,31 @@
 
 .hero-text {
   flex: 1;
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .greeting {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: var(--text-muted);
   margin-bottom: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .name {
-  font-size: 4rem;
-  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
   line-height: 1.1;
   margin-bottom: 1rem;
+  letter-spacing: -1px;
 }
 
 .name span {
   background: var(--gradient-text);
+  background-size: 200% 200%;
+  animation: gradientFlow 6s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -66,10 +73,10 @@
 }
 
 .typing-text {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: var(--secondary);
-  border-right: 2px solid var(--secondary);
+  border-right: 3px solid var(--secondary);
   white-space: nowrap;
   overflow: hidden;
   animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
@@ -86,14 +93,15 @@
 }
 
 .intro {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--text-muted);
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  line-height: 1.8;
 }
 
 .hero-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -104,17 +112,17 @@
 }
 
 .image-wrapper {
-  width: 350px;
-  height: 350px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
-  padding: 10px;
+  padding: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.3), rgba(14, 165, 233, 0.2), rgba(2, 132, 199, 0.3));
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.4), rgba(139, 92, 246, 0.4), rgba(236, 72, 153, 0.4));
   background-size: 200% 200%;
   animation: floating 6s ease-in-out infinite, gradientFlow 5s ease infinite;
-  box-shadow: 0 0 40px rgba(56, 189, 248, 0.2);
+  box-shadow: 0 0 60px rgba(139, 92, 246, 0.3);
 }
 
 @keyframes floating {
